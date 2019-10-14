@@ -7,23 +7,37 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		332E81E0DD70041EAD1A028C /* Pods_GameThronesFavorites.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 274683C493D70A2B2A43D3AB /* Pods_GameThronesFavorites.framework */; };
 		4C314D86228DAA2000D61C92 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C314D85228DAA2000D61C92 /* AppDelegate.swift */; };
-		4C314D88228DAA2000D61C92 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C314D87228DAA2000D61C92 /* ViewController.swift */; };
 		4C314D8B228DAA2000D61C92 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4C314D89228DAA2000D61C92 /* Main.storyboard */; };
 		4C314D8E228DAA2000D61C92 /* GameThronesFavorites.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 4C314D8C228DAA2000D61C92 /* GameThronesFavorites.xcdatamodeld */; };
 		4C314D90228DAA2200D61C92 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4C314D8F228DAA2200D61C92 /* Assets.xcassets */; };
 		4C314D93228DAA2200D61C92 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4C314D91228DAA2200D61C92 /* LaunchScreen.storyboard */; };
+		4C314D9D228DAF8000D61C92 /* Character.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C314D9C228DAF8000D61C92 /* Character.swift */; };
+		4C314D9F228DB26A00D61C92 /* source.json in Resources */ = {isa = PBXBuildFile; fileRef = 4C314D9E228DB26A00D61C92 /* source.json */; };
+		4C314DA1228DB69500D61C92 /* CharacterTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C314DA0228DB69500D61C92 /* CharacterTableViewController.swift */; };
+		4C314DA5228DBBE500D61C92 /* CustomCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C314DA4228DBBE500D61C92 /* CustomCell.swift */; };
+		4C314DB6228DE72A00D61C92 /* DetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C314DB5228DE72A00D61C92 /* DetailsViewController.swift */; };
+		4C736BA4229632DB00A068E9 /* CharacterEntity+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C736BA3229632DB00A068E9 /* CharacterEntity+CoreDataClass.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		13EC33118194091E91BA28D6 /* Pods-GameThronesFavorites.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GameThronesFavorites.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GameThronesFavorites/Pods-GameThronesFavorites.debug.xcconfig"; sourceTree = "<group>"; };
+		274683C493D70A2B2A43D3AB /* Pods_GameThronesFavorites.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GameThronesFavorites.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		4C314D82228DAA2000D61C92 /* GameThronesFavorites.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GameThronesFavorites.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4C314D85228DAA2000D61C92 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		4C314D87228DAA2000D61C92 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		4C314D8A228DAA2000D61C92 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		4C314D8D228DAA2000D61C92 /* GameThronesFavorites.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = GameThronesFavorites.xcdatamodel; sourceTree = "<group>"; };
 		4C314D8F228DAA2200D61C92 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4C314D92228DAA2200D61C92 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4C314D94228DAA2200D61C92 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4C314D9C228DAF8000D61C92 /* Character.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Character.swift; sourceTree = "<group>"; };
+		4C314D9E228DB26A00D61C92 /* source.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = source.json; sourceTree = SOURCE_ROOT; };
+		4C314DA0228DB69500D61C92 /* CharacterTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharacterTableViewController.swift; sourceTree = "<group>"; };
+		4C314DA4228DBBE500D61C92 /* CustomCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomCell.swift; sourceTree = "<group>"; };
+		4C314DB5228DE72A00D61C92 /* DetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = DetailsViewController.swift; path = ../DetailsViewController.swift; sourceTree = "<group>"; };
+		4C736BA3229632DB00A068E9 /* CharacterEntity+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "CharacterEntity+CoreDataClass.swift"; path = "../../CharacterEntity+CoreDataClass.swift"; sourceTree = "<group>"; };
+		61413EB7137B1ED8388986E7 /* Pods-GameThronesFavorites.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GameThronesFavorites.release.xcconfig"; path = "Pods/Target Support Files/Pods-GameThronesFavorites/Pods-GameThronesFavorites.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +45,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				332E81E0DD70041EAD1A028C /* Pods_GameThronesFavorites.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -42,6 +57,8 @@
 			children = (
 				4C314D84228DAA2000D61C92 /* GameThronesFavorites */,
 				4C314D83228DAA2000D61C92 /* Products */,
+				B29CEC9FC45278858F37510B /* Pods */,
+				8834094810DB9462D4E9090A /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,8 +73,11 @@
 		4C314D84228DAA2000D61C92 /* GameThronesFavorites */ = {
 			isa = PBXGroup;
 			children = (
+				4C314DAA228DC71900D61C92 /* ViewControllers */,
+				4C314DA9228DC70300D61C92 /* View */,
+				4C314DA6228DC6D200D61C92 /* Model */,
 				4C314D85228DAA2000D61C92 /* AppDelegate.swift */,
-				4C314D87228DAA2000D61C92 /* ViewController.swift */,
+				4C314D9E228DB26A00D61C92 /* source.json */,
 				4C314D89228DAA2000D61C92 /* Main.storyboard */,
 				4C314D8F228DAA2200D61C92 /* Assets.xcassets */,
 				4C314D91228DAA2200D61C92 /* LaunchScreen.storyboard */,
@@ -67,6 +87,49 @@
 			path = GameThronesFavorites;
 			sourceTree = "<group>";
 		};
+		4C314DA6228DC6D200D61C92 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				4C736BA3229632DB00A068E9 /* CharacterEntity+CoreDataClass.swift */,
+				4C314D9C228DAF8000D61C92 /* Character.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		4C314DA9228DC70300D61C92 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				4C314DA4228DBBE500D61C92 /* CustomCell.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		4C314DAA228DC71900D61C92 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				4C314DA0228DB69500D61C92 /* CharacterTableViewController.swift */,
+				4C314DB5228DE72A00D61C92 /* DetailsViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		8834094810DB9462D4E9090A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				274683C493D70A2B2A43D3AB /* Pods_GameThronesFavorites.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B29CEC9FC45278858F37510B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				13EC33118194091E91BA28D6 /* Pods-GameThronesFavorites.debug.xcconfig */,
+				61413EB7137B1ED8388986E7 /* Pods-GameThronesFavorites.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -74,9 +137,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 4C314D97228DAA2200D61C92 /* Build configuration list for PBXNativeTarget "GameThronesFavorites" */;
 			buildPhases = (
+				9A8EBF7CAC0E672155FA7337 /* [CP] Check Pods Manifest.lock */,
 				4C314D7E228DAA2000D61C92 /* Sources */,
 				4C314D7F228DAA2000D61C92 /* Frameworks */,
 				4C314D80228DAA2000D61C92 /* Resources */,
+				9E486617B03277DAD971FF3B /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -125,6 +190,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4C314D9F228DB26A00D61C92 /* source.json in Resources */,
 				4C314D93228DAA2200D61C92 /* LaunchScreen.storyboard in Resources */,
 				4C314D90228DAA2200D61C92 /* Assets.xcassets in Resources */,
 				4C314D8B228DAA2000D61C92 /* Main.storyboard in Resources */,
@@ -133,14 +199,65 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		9A8EBF7CAC0E672155FA7337 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-GameThronesFavorites-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9E486617B03277DAD971FF3B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-GameThronesFavorites/Pods-GameThronesFavorites-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Cartography/Cartography.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Cartography.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GameThronesFavorites/Pods-GameThronesFavorites-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		4C314D7E228DAA2000D61C92 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4C314D88228DAA2000D61C92 /* ViewController.swift in Sources */,
+				4C314DA1228DB69500D61C92 /* CharacterTableViewController.swift in Sources */,
 				4C314D86228DAA2000D61C92 /* AppDelegate.swift in Sources */,
+				4C314DB6228DE72A00D61C92 /* DetailsViewController.swift in Sources */,
 				4C314D8E228DAA2000D61C92 /* GameThronesFavorites.xcdatamodeld in Sources */,
+				4C736BA4229632DB00A068E9 /* CharacterEntity+CoreDataClass.swift in Sources */,
+				4C314DA5228DBBE500D61C92 /* CustomCell.swift in Sources */,
+				4C314D9D228DAF8000D61C92 /* Character.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -284,6 +401,7 @@
 		};
 		4C314D98228DAA2200D61C92 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 13EC33118194091E91BA28D6 /* Pods-GameThronesFavorites.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -302,6 +420,7 @@
 		};
 		4C314D99228DAA2200D61C92 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 61413EB7137B1ED8388986E7 /* Pods-GameThronesFavorites.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
